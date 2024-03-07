@@ -48,11 +48,11 @@
       <section class="head">
         <div class="container">
           <div class="employee-name">
-            <h3>Customers</h3>
+            <h3>Applications</h3>
           </div>
           <div class="image-container">
             <img
-              src="Assets/images/customers-shoppers-ts-100622103.jpg"
+              src="Assets/images/application-form-laptop-computer.jpg"
               alt="An image of a solar farm"
             />
           </div>
@@ -73,46 +73,42 @@
             <div class="container">
               <div class="item">
                 <div class="area-head">
-                  <h6>Panel Type</h6>
-                  <i class="chevron">
-                    <?xml version="1.0" encoding="utf-8"?>
-                    <!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-                    <svg
-                      version="1.1"
-                      id="Layer_1"
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      x="0px"
-                      y="0px"
-                      viewBox="0 0 448 512"
-                      style="enable-background: new 0 0 448 512"
-                      xml:space="preserve"
-                    >
-                      <style type="text/css">
-                        .st0 {
-                          fill: #ffffff;
-                        }
-                      </style>
-                      <path
-                        class="st0"
-                        d="M224,416c-8.2,0-16.4-3.1-22.6-9.4l-192-192c-12.5-12.5-12.5-32.8,0-45.2s32.8-12.5,45.2,0L224,338.8
-                      l169.4-169.4c12.5-12.5,32.8-12.5,45.2,0s12.5,32.8,0,45.2l-192,192C240.4,412.9,232.2,416,224,416z"
-                      />
-                    </svg>
-                  </i>
+                  <h6>Period</h6>
                 </div>
+                <ul>
+                  <li>
+                    <input type="radio" name="period" id="all" />
+                    <label for="all">All</label>
+                  </li>
+                  <li>
+                    <input type="radio" name="period" id="3-months" />
+                    <label for="3-months">3 Months</label>
+                  </li>
+                  <li>
+                    <input type="radio" name="period" id="6-months" />
+                    <label for="6-months">6 Months</label>
+                  </li>
+                  <li>
+                    <input type="radio" name="period" id="9-months" />
+                    <label for="9-months">9 Months</label>
+                  </li>
+                  <li>
+                    <input type="radio" name="period" id="12-months" />
+                    <label for="12-months">12 Months</label>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
           <div class="tables">
             <table>
               <thead>
-                <th>Customer ID</th>
+                <th>Application ID</th>
                 <th>Customer Name</th>
                 <th>Address</th>
                 <th>Phone</th>
-                <th>System</th>
-                <th>Type</th>
+                <th>Period</th>
+                <th>Status</th>
               </thead>
               <tbody>
                 <tr>
@@ -120,8 +116,12 @@
                   <td>Nyasha</td>
                   <td>43 Simon road Waterfalls Harare</td>
                   <td>+263772731995</td>
-                  <td>5KW</td>
-                  <td>Rental</td>
+                  <td>3 Months</td>
+                  <td>
+                    <a href="application.html" class="status pending"
+                      >Pending</a
+                    >
+                  </td>
                 </tr>
               </tbody>
             </table>
