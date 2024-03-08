@@ -331,6 +331,7 @@ footer .main-section{
     background-color: var(--bs-gray);
     transition: all ease 0.3s;
     color: var(--bs-light);
+    cursor: pointer;
 }
 .options .main-section{
     display: flex;
@@ -488,6 +489,7 @@ tr:nth-child(even) {
     align-items: center;
     justify-content: center;
     gap: 25px;
+    padding-bottom: 40px;
 }
 .dashboard .card{
     background-color: transparent;
@@ -500,5 +502,54 @@ tr:nth-child(even) {
     color: var(--bs-dark);
     transition: all ease 0.2s;
 }
+.schedule{
+    display: active;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
 
+.criteria{
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+}
+.criteria span{
+    font-weight: 700;
+}
+.criteria p{
+    color: var(--bs-secondary);
+}
+.buttons input{
+    padding: 10px 15px;
+    background-color: var(--bs-light);
+    color: var(--bs-dark);
+    border: none;
+    border-radius: 25px;
+}
+.buttons input:hover{
+    color: var(--bs-light);
+    background-color: var(--bs-gray-dark);
+    cursor: pointer;
+}
 
+a.return-link{
+    text-decoration: none;
+    color: var(--bs-light);
+    margin: 15px;
+    font-weight: 700;
+}
+
+.installations ul{
+    list-style: none;
+}
+.installations ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+}
+.installations ul li .cust-name{
+    font-weight: 900;
+}
